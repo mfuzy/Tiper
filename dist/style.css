@@ -1,0 +1,45 @@
+#root {
+  text-align: center;
+  background-image: url("sport.jpg");
+  background-repeat: no-repeat;
+  padding: 20px 0px 0px 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #972a13;
+}
+
+input {
+  border: 1px solid #dd6530;
+  padding: 2px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 60px;
+}
+
+.green {
+  border: 1px solid #c6d33d;
+}
+
+button {
+  background: #c6d33d;
+}
+
+#vyhra {
+  border: 3px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+#vyhra,
+#vklad {
+  width: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  #root {
+    background-image: none;
+  }
+}
